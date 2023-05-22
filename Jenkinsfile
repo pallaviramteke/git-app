@@ -6,7 +6,7 @@ customWorkspace "/mnt/pipeline"
 }
 }
 stages{
-stage ("stage-2"){
+stage ("stage-3"){
 steps{
 sh "yum install httpd -y"
 sh "service httpd start"
